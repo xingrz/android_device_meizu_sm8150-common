@@ -260,7 +260,7 @@ service cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
 service vendor.ims_rtp_daemon /vendor/bin/ims_rtp_daemon
    class main
    user radio
-   group radio diag inet log
+   group radio vendor_qti_diag inet log
 
 on property:vendor.ims.DATA_DAEMON_STATUS=1
     restart vendor.ims_rtp_daemon
