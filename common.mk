@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.2-service.meizu_msmnile
 
+# VNDK-SP
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
