@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_kernel_meizu_sm8150",
+    "target_path": "kernel/meizu/sm8150"
+  },
+  {
     "repository": "android_vendor_meizu_sm8150-common",
     "target_path": "vendor/meizu/sm8150-common"
   }
