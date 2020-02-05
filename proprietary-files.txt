@@ -101,6 +101,14 @@ vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libvolumelistener.so
 
+# Audio - HAL
+vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib64/hw/audio.primary.msmnile.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libtinycompress_vendor.so
+
 # Bluetooth
 vendor/bin/btnvtool
 vendor/bin/hci_qcomm_init
