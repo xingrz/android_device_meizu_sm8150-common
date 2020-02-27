@@ -36,10 +36,6 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
 
-PRODUCT_COPY_FILES += \
-    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -51,10 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150
 
-# Init
-PRODUCT_PACKAGES += \
-    init.qcom.rc
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.meizu_sm8150
@@ -62,10 +54,6 @@ PRODUCT_PACKAGES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     mokee.livedisplay@2.0-service-meizu_sm8150
-
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
 
 # Net
 PRODUCT_PACKAGES += \
