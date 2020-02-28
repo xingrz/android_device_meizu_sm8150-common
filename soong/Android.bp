@@ -1,5 +1,5 @@
 bootstrap_go_package {
-    name: "soong-meizu-sm8150-plugins",
+    name: "soong-meizu-msmnile-plugins",
     pkgPath: "device/meizu/sm8150-common",
     deps: [
         "blueprint",

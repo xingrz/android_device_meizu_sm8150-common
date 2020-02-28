@@ -1,4 +1,4 @@
-service fingerprint-inscreen-1-0 /system/bin/hw/mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150
+service vendor.fingerprint-inscreen-1-0-meizu_msmnile /vendor/bin/hw/vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile
     interface vendor.mokee.biometrics.fingerprint.inscreen@1.0::IFingerprintInscreen default
     class hal
     user system

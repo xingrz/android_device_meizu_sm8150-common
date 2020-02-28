@@ -194,6 +194,6 @@ Value *VerifyModemFn(const char *name, State *state,
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_meizu_sm8150() {
-    RegisterFunction("meizu_sm8150.verify_modem", VerifyModemFn);
+void Register_librecovery_updater_meizu_msmnile() {
+    RegisterFunction("meizu_msmnile.verify_modem", VerifyModemFn);
 }

@@ -1,0 +1,4 @@
+service vendor.livedisplay-hal-2-0-meizu_msmnile /vendor/bin/hw/mokee.livedisplay@2.0-service.meizu_msmnile
+    class late_start
+    user system
+    group system

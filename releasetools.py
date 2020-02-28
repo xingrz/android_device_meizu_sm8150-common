@@ -29,6 +29,6 @@ def AddModemAssertion(info):
   if m:
     version = m.group(1).rstrip()
     if len(version) and '*' not in version:
-      cmd = 'assert(meizu_sm8150.verify_modem("' + version + '") == "1");'
+      cmd = 'assert(meizu_msmnile.verify_modem("' + version + '") == "1");'
       info.script.AppendExtra(cmd)
   return

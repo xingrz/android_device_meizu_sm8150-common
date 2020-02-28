@@ -14,11 +14,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-meizu_sm8150_light_hal_binary {
+meizu_msmnile_light_hal_binary {
     relative_install_path: "hw",
+    vendor: true,
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.meizu_sm8150",
-    init_rc: ["android.hardware.light@2.0-service.meizu_sm8150.rc"],
+    name: "android.hardware.light@2.0-service.meizu_msmnile",
+    vintf_fragments: ["android.hardware.light@2.0-service.meizu_msmnile.xml"],
+    init_rc: ["android.hardware.light@2.0-service.meizu_msmnile.rc"],
     srcs: ["service.cpp", "Light.cpp"],
     shared_libs: [
         "libbase",

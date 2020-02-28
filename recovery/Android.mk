@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := librecovery_updater_meizu_sm8150
+LOCAL_MODULE := librecovery_updater_meizu_msmnile
 
 LOCAL_C_INCLUDES := \
     bootable/recovery \

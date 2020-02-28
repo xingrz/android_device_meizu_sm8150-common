@@ -1,4 +1,4 @@
-package sm8150
+package msmnile
 
 import (
     "android/soong/android"
@@ -9,7 +9,7 @@ import (
 func fodFlags(ctx android.BaseContext) []string {
     var cflags []string
 
-    var config = ctx.AConfig().VendorConfig("MEIZU_SM8150_FOD")
+    var config = ctx.AConfig().VendorConfig("MEIZU_MSMNILE_FOD")
     var posX = strings.TrimSpace(config.String("POS_X"))
     var posY = strings.TrimSpace(config.String("POS_Y"))
     var size = strings.TrimSpace(config.String("SIZE"))

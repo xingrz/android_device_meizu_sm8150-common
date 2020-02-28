@@ -135,7 +135,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150
+    vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile
 
 # Health
 PRODUCT_PACKAGES += \
@@ -169,11 +169,11 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.meizu_sm8150
+    android.hardware.light@2.0-service.meizu_msmnile
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    mokee.livedisplay@2.0-service-meizu_sm8150
+    vendor.mokee.livedisplay@2.0-service.meizu_msmnile
 
 # Media
 PRODUCT_PACKAGES += \
@@ -260,7 +260,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    mokee.touch@1.0-service.meizu_sm8150
+    vendor.mokee.touch@1.0-service.meizu_msmnile
 
 # USB
 PRODUCT_PACKAGES += \
@@ -269,7 +269,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.meizu_sm8150
+    android.hardware.vibrator@1.2-service.meizu_msmnile
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

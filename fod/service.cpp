@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150"
+#define LOG_TAG "vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

@@ -16,7 +16,7 @@
 
 #define GESTURE_CONTROL_PATH "/sys/class/meizu/tp/gesture_control"
 
-#define DT2W_FIFO_PATH "/dev/mokee.touch@1.0/dt2w"
+#define DT2W_FIFO_PATH "/dev/vendor.mokee.touch@1.0/dt2w"
 
 #define SLIDE_LEFT_ENABLE   (1 << 0)
 #define SLIDE_RIGHT_ENABLE  (1 << 1)

@@ -5,10 +5,12 @@
 //
 
 cc_binary {
-    name: "mokee.touch@1.0-service.meizu_sm8150",
-    init_rc: ["mokee.touch@1.0-service.meizu_sm8150.rc"],
+    name: "vendor.mokee.touch@1.0-service.meizu_msmnile",
+    vintf_fragments: ["vendor.mokee.touch@1.0-service.meizu_msmnile.xml"],
+    init_rc: ["vendor.mokee.touch@1.0-service.meizu_msmnile.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
+    vendor: true,
     srcs: [
         "FifoWatcher.cpp",
         "TouchscreenGesture.cpp",

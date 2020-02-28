@@ -14,11 +14,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-meizu_sm8150_fod_hal_binary {
+meizu_msmnile_fod_hal_binary {
     relative_install_path: "hw",
+    vendor: true,
     defaults: ["hidl_defaults"],
-    name: "mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150",
-    init_rc: ["mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_sm8150.rc"],
+    name: "vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile",
+    vintf_fragments: ["vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile.xml"],
+    init_rc: ["vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile.rc"],
     srcs: [
         "KeyEventWatcher.cpp",
         "FingerprintInscreen.cpp",
