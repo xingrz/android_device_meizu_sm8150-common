@@ -137,6 +137,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.meizu_msmnile
 
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1-impl-qti \
+    libcurl \
+    libgnss \
+    libgnsspps \
+    libgps.utils \
+    libloc_core \
+    liblocation_api
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
