@@ -40,3 +40,6 @@ fi
 "${MY_DIR}/setup-makefiles.sh"
 
 BLOB_ROOT="${MOKEE_ROOT}/vendor/${VENDOR}/${DEVICE_COMMON}/proprietary"
+
+patchelf --add-needed libprocessgroup.so "${BLOB_ROOT}/vendor/lib/hw/audio.primary.msmnile.so"
+patchelf --add-needed libprocessgroup.so "${BLOB_ROOT}/vendor/lib64/hw/audio.primary.msmnile.so"
